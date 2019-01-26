@@ -1,0 +1,76 @@
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    
+  }
+  
+  a:link {
+    color: #34222e;
+  }
+  
+  a:visited {
+    color: #fee9d7;
+  }
+
+body {
+    background-color:#fee9d7;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer{
+    width: 100vw;
+    margin-left: 0px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.rowFull{
+    width: 100vw;
+    position: fixed;
+    margin-left: 0px;
+    height: 50px;
+    margin-top: -67px;
+    background-color: #e2434b;
+    text-align: right;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+#topMenu{
+    text-decoration: none;
+
+
+}
+
+#name{
+    font-family: 'Cookie', cursive;
+    color: #34222e;
+    font-size: 100px;
+
+}
+
+#tagLine{
+    font-family: 'Poiret One', cursive;
+}
